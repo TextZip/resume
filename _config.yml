@@ -124,7 +124,7 @@ content:
           Automation of oxygen flow rate to give the best possible treatment to patients effected with COVID-19.
         description: | # this will include new lines to allow paragraphs
           A sponsered project in-association with Yashoda Hospitals and Centre for Innovation, Incubation and Entrepreneurship - BITS Pilani under the guidance of [Mr. Balasubramanian. M](https://universe.bits-pilani.ac.in/hyderabad/balasm/profile), [Dr.Alivelu Manga Parimi](https://universe.bits-pilani.ac.in/hyderabad/alivelu/profile) and [Dr.Pratyush Chakraborty](https://universe.bits-pilani.ac.in/hyderabad/pchakraborty/Profile). The project involved the automation of the oxygen flow regulator based on an expert-advice system for patients who needed oxygen support, the system not only reduced the need for constant supervision of the patients condition but also reduced oxygen wastage by automatically adjusting the oxygen flowrate based on the patients vitals and also recorded all the data for further analysis. 
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Realtime Orthomosaic Generation
         link: github.com/sproogen
@@ -140,7 +140,7 @@ content:
           Navigation and localization of drones in GPS denied environments. 
         description: | # this will include new lines to allow paragraphs
           A research project under [Dr. K Rajitha](https://universe.bits-pilani.ac.in/hyderabad/krajitha/Profile) aimed at implementing realtime orthomosaic map based navigation and SLAM using a single vertical facing camera. This project is a step towards a cheap and affordable drone based surveying platform that doesn't rely on external services like GPS and satellite data for localization. It has applications ranging from helping first responders get a good understand of the map after terrain alterning natural/artifical events to surveying construction sites, farm lands and forests.   
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Underwater Rover 
         link: github.com/sproogen
@@ -156,7 +156,7 @@ content:
           Started underwater robotics culture on campus.
         description: | # this will include new lines to allow paragraphs
           My first project in the field of underwater robotics, the rover was developed as a prototype for the singapore autonomous underwater vehicle challenge. To reduce costs everything from the hull to the thrusters and propellers used in the rover were designed and fabricated inhouse reducing the overall cost of the rover by over 60% when compared to a rover made using COTS components. The rover has a unique aeroplane like shape and uses 4 thrusters (2 Vertial + 2 Horizontal) for navigating under water.  
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Gaming Console
         link: github.com/sproogen
@@ -172,7 +172,7 @@ content:
           Designed to make racing games less embarrassing for me infront of my friends. 
         description: | # this will include new lines to allow paragraphs
           The idea for this project started as an internal joke between me and roommate about my bad driving skills in PC games, a few weeks of tinkering around with the arduino resulted in the creation of a gaming wheel with capacitive touch controls as a replacement for brake and accleration padles.
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Chrome Dino Game for Arduino
         link: github.com/sproogen
@@ -188,7 +188,7 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Manipulator Workspace Plotter
         link: github.com/sproogen
@@ -204,7 +204,7 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
+      - layout: left
         border: weak
         title:  Stair Climbing Robot  
         link: github.com/sproogen
@@ -220,7 +220,7 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Spherical Wheel
         link: github.com/sproogen
@@ -236,7 +236,7 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
+      - layout: left
         border: weak
         title: POV Display
         link: github.com/sproogen
@@ -252,7 +252,7 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
+      - layout: left
         title: Differential Drive Robot with 1DoF Gripper
         link: github.com/sproogen
         link_text: Project Website
@@ -375,9 +375,6 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
       ![Trees](images/landscape-trees.jpg "Trees")
