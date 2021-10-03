@@ -159,9 +159,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Designed to make racing games less embarrassing for me infront of my friends. 
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          The idea for this project started as an internal joke between me and roommate about my bad driving skills in PC games, a few weeks of tinkering around with the arduino resulted in the creation of a gaming wheel with capacitive touch controls as a replacement for brake and accleration padles.
       - layout: top-middle
         title: Chrome Dino Game for Arduino
         link: github.com/sproogen
