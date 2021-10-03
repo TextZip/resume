@@ -1,6 +1,6 @@
 # Site
 repository: textzip/resume
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: assets/favicon.ico
 
 # Content configuration version
 version: 2
@@ -57,14 +57,12 @@ about_content: | # this will include new lines to allow paragraphs
   I am currently looking for oppturnities at research labs to persue my undergrad thesis in the field of robotics from August 2022 - May 2023, please drop me a mail if you know of any such oppturnities.    
 
   **Skills:**
-  - Fabrication: <mark>Lathe</mark> <mark>CNC</mark> <mark>3D printing</mark> <mark>Soldering</mark>
+  - Fabrication: <mark>Lathe</mark> <mark>CNC</mark> <mark>3D printing</mark> <mark>Soldering</mark> <mark>Welding</mark>
   - Electronics: <mark>Embedded Systems</mark> <mark>PCB Designing</mark> <mark>Communication Protocols</mark>
   - Robotics: <mark>Forward, Inverse Kinematics & Dynamics</mark> <mark>Non-Linear Dynamics</mark> <mark>Navigation & Path Planning</mark> <mark>Control</mark> 
   - Others: <mark>Image Processing</mark> <mark>Reinforcement Learning</mark> <mark>Machine Learning</mark>
 
-
- 
-  **Softwares:**
+  **Tools:**
   - CAD: <mark>Onshape</mark> <mark>Solidworks</mark> <mark>Fusion 360</mark>
   - Programming: <mark>C</mark> <mark>C++</mark> <mark>Python</mark> <mark>MATLAB</mark>
   - Electronics: <mark>Proteous</mark> <mark>EasyEDA</mark> <mark>Arduino IDE</mark>
@@ -88,7 +86,7 @@ content:
         quote: >
           A unique flying beast build to test out various control algorithms.
         description: | # this will include new lines to allow paragraphs
-          I started this project to explore the different approaches for control of aerial vehicles ranging from traditional PID and LQR to more complex ones like fuzzy logic and netural networks. The drone also features a custom 3D printed modular frame that is light weight and extremly robust and an inhouse designed flight controller algorithm running on the Nano 33 BLE Sense. The project has a lot of room for improvements and additional features as the Nano 33 BLE Sense supports tinyML.
+          A project to explore different approaches for control of aerial vehicles ranging from traditional PID and LQR to more complex ones like fuzzy logic and netural networks. The drone also features a custom 3D printed modular frame that is light weight and extremly robust and an inhouse designed flight controller algorithm running on the Nano 33 BLE Sense. The project has a lot of room for improvements and additional features as the Nano 33 BLE Sense supports tinyML.
       - layout: top-middle
         title: Quasi-Direct-Drive Actuator
         link: github.com/sproogen
@@ -146,9 +144,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Started underwater robotics culture on campus.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          My first project in the field of underwater robotics, the rover was developed as a prototype for the singapore autonomous underwater vehicle challenge. To reduce costs everything from the hull to the thrusters and propellers used in the rover were designed and fabricated inhouse reducing the overall cost of the rover by over 60% when compared to a rover made using COTS components. The rover has a unique aeroplane like shape and uses 4 thrusters (2 Vertial + 2 Horizontal) for navigating under water.  
       - layout: top-middle
         title: Gaming Console
         link: github.com/sproogen
