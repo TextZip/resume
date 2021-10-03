@@ -57,10 +57,15 @@ about_content: | # this will include new lines to allow paragraphs
   I am currently looking for oppturnities at research labs to persue my undergrad thesis in the field of robotics from August 2022 - May 2023, please drop me a mail if you know of any such oppturnities.    
 
   **Skills:**
+  - Fabrication: <mark>Lathe</mark> <mark>CNC</mark> <mark>3D printing</mark> <mark>Soldering</mark>
+  - Electronics: <mark>Embedded Systems</mark> <mark>PCB Designing</mark> <mark>Communication Protocols</mark>
+  - Robotics: <mark>Forward, Inverse Kinematics & Dynamics</mark> <mark>Non-Linear Dynamics</mark> <mark>Navigation & Path Planning</mark> <mark>Control</mark> 
+  - Others: <mark>Image Processing</mark> <mark>Reinforcement Learning</mark> <mark>Machine Learning</mark>
+
 
  
   **Softwares:**
-  - CAD : <mark>Onshape</mark> <mark>Solidworks</mark> <mark>Fusion 360</mark>
+  - CAD: <mark>Onshape</mark> <mark>Solidworks</mark> <mark>Fusion 360</mark>
   - Programming: <mark>C</mark> <mark>C++</mark> <mark>Python</mark> <mark>MATLAB</mark>
   - Electronics: <mark>Proteous</mark> <mark>EasyEDA</mark> <mark>Arduino IDE</mark>
   - Others: <mark>ROS</mark> <mark>Gazebo</mark> <mark>OpenCV</mark>  
@@ -81,9 +86,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Probably one of the most unique flying configuration I have worked with.
+          A unique flying beast build to test out various control algorithms.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project to explore the different approaches for control of aerial vehicles ranging from traditional PID and LQR to more complex ones like fuzzy logic and netural networks. The drone also features a custom 3D printed modular frame that is light weight and extremly robust and an inhouse designed flight controller algorithm running on the Nano 33 BLE Sense. The project has a lot of room for improvements and additional features as the Nano 33 BLE Sense supports tinyML.
       - layout: top-middle
         title: Quasi-Direct-Drive Actuator
         link: github.com/sproogen
@@ -96,9 +101,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          An extremly affordable and opensource QDD Actuator inspired from the MIT mini-cheetah
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Part of a bigger project under [Dr.Abhishek Sarkar](https://universe.bits-pilani.ac.in/hyderabad/abhisheks/Profile) this prototype features a custom planetary gear system along with a 400kv 4114 BLDC motor, on axis magnetic encoder and Odrive. With a final gear ratio of 6:1 the actuator has excellect back-drivability and control. The entire mechanical assembly has been fabricated inhouse and the final prototype of this project will be used in our upcoming quadruped robot project.    
       - layout: top-middle
         title: Auto-Flow Regulator for COVID-19 Treatment
         link: github.com/sproogen
@@ -111,9 +116,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Automation of oxygen flow rate to give the best possible treatment to patients effected with COVID-19.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          A sponsered project in-association with Yashoda Hospitals and Centre for Innovation, Incubation and Entrepreneurship - BITS Pilani under the guidance of [Mr. Balasubramanian. M](https://universe.bits-pilani.ac.in/hyderabad/balasm/profile), [Dr.Alivelu Manga Parimi](https://universe.bits-pilani.ac.in/hyderabad/alivelu/profile) and [Dr.Pratyush Chakraborty](https://universe.bits-pilani.ac.in/hyderabad/pchakraborty/Profile). The project involved the automation of the oxygen flow regulator based on an expert-advice system for patients who needed oxygen support, the system not only reduced the need for constant supervision of the patients condition but also reduced oxygen wastage by automatically adjusting the oxygen flowrate based on the patients vitals and also recorded all the data for further analysis. 
       - layout: top-middle
         title: Realtime Orthomosaic Generation
         link: github.com/sproogen
@@ -126,9 +131,9 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Navigation and localization of drones in GPS denied environments. 
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          A research project under [Dr. K Rajitha](https://universe.bits-pilani.ac.in/hyderabad/krajitha/Profile) aimed at implementing realtime orthomosaic map based navigation and SLAM using a single vertical facing camera. This project is a step towards a cheap and affordable drone based surveying platform that doesn't rely on external services like GPS and satellite data for localization. It has applications ranging from helping first responders get a good understand of the map after terrain alterning natural/artifical events to surveying construction sites, farm lands and forests.   
       - layout: top-middle
         title: Underwater Rover 
         link: github.com/sproogen
@@ -338,9 +343,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
+        title: BITS Pilani
         caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        sub_title: B.E. Civil & M.Sc. Physics
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
