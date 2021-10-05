@@ -105,15 +105,14 @@
           </li>
         {% endfor %}
       </ul>
-
-      {%- if site.email -%}
+      {%- if site.work_email -%}
         <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          {{ site.work_email_title | default: "Work Email" }}: <a href="mailto:{{ site.work_email }}" target="_blank">{{ site.work_email | escape }}</a>
         </p>
       {%- endif -%}
-      {%- if site.phone -%}
+      {%- if site.email -%}
         <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+          {{ site.email_title | default: "Personal Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
       {%- if site.website -%}
@@ -121,6 +120,12 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.phone -%}
+        <p>
+          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+        </p>
+      {%- endif -%}
+
     </div>
   </div>
 </div>

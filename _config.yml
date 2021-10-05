@@ -9,6 +9,7 @@ version: 2
 name: Bandi Jai Krishna
 title: Pre-Final Year Undergrad @ BITS Pilani
 email: textzip@gmail.com
+work_email: f20180744@hyderabad.bits-pilani.ac.in
 # email_title: Email (Email title override)
 phone: +91-9701699244
 # phone_title: Phone (Phone title override)
@@ -51,12 +52,12 @@ linkedin_username: jai-krishna-9b0663170
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
+about_title: Introduction
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Jai and I'm a pre-final year undergrad at BITS Pilani. I plan on persuing a masters in robotics after my graduation at BITS. I have experience working on projects ranging from underwater rovers to flying, climbing and walking robots.
-  
-  I am currently looking for oppturnities at research labs to persue my undergrad thesis in the field of robotics from August 2022 - May 2023, please drop me a mail if you know of any such oppturnities.    
+  Hi, This is Jai, a pre-final year undergrad at BITS Pilani who plans on pursuing a master's in robotics after he graduates from BITS. He has experience working on projects ranging from underwater rovers to flying, climbing, and walking robots.
+
+  He is currently looking for openings in research labs to pursue his undergrad thesis in robotics from August 2022 - May 2023. Please drop him a mail if you know of any such opportunities.
 
   **Skills:**
   - Fabrication: <mark>Lathe</mark> <mark>CNC</mark> <mark>3D printing</mark> <mark>Soldering</mark> <mark>Welding</mark>
@@ -79,7 +80,7 @@ content:
         title: Co-axial Bi-Copter
         link: github.com/sproogen
         link_text: Project Website
-        sub_title: Students Union, BITS Pilani
+        sub_title: PERSONAL PROJECT
         caption: November 2017 - Present
         additional_links:
           - title:  sproogen/modern-resume-theme
@@ -91,15 +92,16 @@ content:
         quote: >
           A unique flying beast build to test out various control algorithms.
         description: | # this will include new lines to allow paragraphs
-          A project to explore different approaches for control of aerial vehicles ranging from traditional PID and LQR to more complex ones like fuzzy logic and netural networks. 
-          - The drone features a custom 3D printed modular frame that is both light weight and extremly robust
-          - Custom flight controller designed for the Nano 33 BLE Sense which has an 9 axis IMU and other sensors.
-          - Future plans for the proejct include leveraging the NLE Sense board's capability to run tinyML.
+          This project explores the different approaches for controlling aerial vehicles ranging from traditional PID and LQR to more complex ones like fuzzy logic and neural networks. 
+          - The drone features an easy-to-print custom 3D printed modular frame that is both lightweight and highly robust.
+          - A custom Flight controller designed to leverage the power of MBed OS and the internal sensors onboard the Nano 33 BLE Sense.
+          - Plans for the project include leveraging the BLE Sense board’s capability to run tinyML.
       - layout: left
         border: weak
         title: Quasi-Direct-Drive Actuator
         link: github.com/sproogen
         link_text: Project Website
+        sub_title: RESEARCH PROJECT
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
@@ -110,10 +112,10 @@ content:
         quote: >
           An extremly affordable and opensource QDD Actuator inspired from the MIT mini-cheetah
         description: | # this will include new lines to allow paragraphs
-          A opensource proejct under [Dr.Abhishek Sarkar](https://universe.bits-pilani.ac.in/hyderabad/abhisheks/Profile) for use in the upcoming quadruped robot. 
-          - Features a custom planetary gear system along with a 400kv BLDC motor, on axis magnetic encoder and Odrive. 
-          - The entire mechanical assembly has been fabricated inhouse.
-          - Capable of producing toruqe upto 1.2 Kgcm   
+          An open-source project to build affordable QDD Actuators for use in proprioception and locomotion-based projects under the guidance of [Dr. Abhishek Sarkar](https://universe.bits-pilani.ac.in/hyderabad/abhisheks/Profile).  
+          - The actuator consists of a custom-built epicyclic gear train, a 400kv BLDC motor, on-axis magnetic encoder, and an Odrive. 
+          - With a 6:1 gear ratio, the actuator has minimal backlash and excellent backdrivibilty, allowing it to produce torques up to 1.2Kgcm.
+          - The mechanical assembly features modular parts that are easy to fabricate and build using standard workshop equipment, making the actuator cost 50% less than the commercially available variants.  
       - layout: left
         border: weak
         title: Auto-Flow Regulator for COVID-19 Treatment
@@ -129,10 +131,10 @@ content:
         quote: >
           Automation of oxygen flow rate to give the best possible treatment to patients effected with COVID-19.
         description: | # this will include new lines to allow paragraphs
-          A sponsered project in-association with Yashoda Hospitals and Centre for Innovation, Incubation and Entrepreneurship - BITS Pilani under the guidance of [Prof. Balasubramanian. M](https://universe.bits-pilani.ac.in/hyderabad/balasm/profile), [Dr.Alivelu Manga Parimi](https://universe.bits-pilani.ac.in/hyderabad/alivelu/profile) and [Dr.Pratyush Chakraborty](https://universe.bits-pilani.ac.in/hyderabad/pchakraborty/Profile). 
-          - The oxygen flow rate is automated based on an expert-advice system
-          - The device reduces oxygen wastage that is caused due to the need for manual adjustment of the flow rate based on the patient's vitals.
-          - The device provides a closed loop feedback based approach for a responsive treatment based on the changing vitals of the patient. 
+          A project in collaboration with Yashoda Hospitals and Centre for Innovation, Incubation, and Entrepreneurship - BITS Pilani. The project aims to automate the oxygen flow rate based on patient vitals for a more responsive patient care system, under the guidance of [Prof. Balasubramanian. M](https://universe.bits-pilani.ac.in/hyderabad/balasm/profile), [Dr.Alivelu Manga Parimi](https://universe.bits-pilani.ac.in/hyderabad/alivelu/profile) and [Dr.Pratyush Chakraborty](https://universe.bits-pilani.ac.in/hyderabad/pchakraborty/Profile).
+          - The hardware stack consists of a proportional solenoid valve, a microcontroller, and an SPO2 + heart rate sensor, along with a user interface that includes a display panel and buttons. 
+          - The device is modular and portable, making it ideal for use in hospitals and outdoor settings with easy-to-fix attachments for connecting to existing oxygen supply infrastructure. 
+          - The device reduces the need for constant medical supervision of patient vitals by automatically adjusting to the trends of the patient vitals in real-time by employing a closed-loop saturation-driven oxygen therapy coupled with an expert advice model. 
       - layout: left
         border: weak
         title: Realtime Orthomosaic Generation
@@ -148,10 +150,10 @@ content:
         quote: >
           Navigation and localization of drones in GPS denied environments. 
         description: | # this will include new lines to allow paragraphs
-          A research project under [Dr. K Rajitha](https://universe.bits-pilani.ac.in/hyderabad/krajitha/Profile) aimed at generating realtime orthomosaic maps.
-          - A system consisting of a single vertical facing camera along with onboard IMU and FC for performing SLAM and navigation. 
-          - Cheap and affordable drone based surveying platform that doesn't rely on external services like GPS and satellite data for localization. 
-          - It has applications ranging from helping first responders get a good understand of the map after terrain alterning natural/artifical events to surveying construction sites, farm lands and forests.   
+          A project aimed at generating real-time orthomosaic maps using drones for localization and navigation under [Dr. K Rajitha](https://universe.bits-pilani.ac.in/hyderabad/krajitha/Profile).
+          - The system consists of a vertically downwards facing camera and an onboard IMU and FC for SLAM and navigation.
+          - The system offers a cheap and affordable drone-based surveying platform that does not rely on external services like GPS and satellite data for localization. 
+          - It has applications ranging from helping first responders understand the map after terrain altering natural/artificial events to surveying construction sites, farmlands, and forests.
       - layout: left
         border: weak
         title: Underwater Rover 
@@ -168,9 +170,9 @@ content:
           Started underwater robotics culture on campus.
         description: | # this will include new lines to allow paragraphs
           The rover was developed as a prototype for the Singapore Autonomous Underwater Vehicle Challenge and was one of the first underwater robotics projects from BITS Pilani. 
-          - Everything from the hull to the thrusters and propellers used in the rover were designed and fabricated inhouse. 
-          - The overall cost of the rover was less by over 60% when compared to a rover made using COTS components. 
-          - The rover features a unqiue shape and uses 4 thrusters (2 Vertial + 2 Horizontal) for navigating under water.  
+          - Everything from the hull to the thrusters and propellers used in the rover was designed and fabricated in-house.
+          - The overall cost of the rover was less by over 60% compared to a rover made using COTS components.
+          - The rover features a unique shape and uses four thrusters (two vertical + two horizontal) for navigating underwater.
       - layout: left
         border: weak
         title: Gaming Console
@@ -186,9 +188,9 @@ content:
         quote: >
           Designed to make racing games on PC more fun.
         description: | # this will include new lines to allow paragraphs
-          Initially started as a small DIY build to making racing experience in PC games more fun it quickly evolved into a full fledged project. 
-          - The build consists of an steering wheel with capactive touch based buttons for brakes and other inputs.
-          - The project is built using extremely inexpensice parts like the arduino uno and an ADXL 335. 
+          Initially started as a DIY build to making the racing experience in PC games more interactive, it quickly evolved into a comprehensive project.
+          - The build consists of a steering wheel with capacitive touch-based buttons for brakes and other inputs.
+          - The project uses commonly available parts like the Arduino Uno, an ADXL 335, and some wooden and PVC structures for shape and support.
           - The software stack consists of an Arduino Uno that communicates with the Processing IDE via serial communication for implementing keyboard hooks through the robot class.
       - layout: left
         border: weak
@@ -205,10 +207,10 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          Started as a fun DIY build in the search for interactive applications based on the Arduino Uno and TFT display boards.
+          A game-themed Arduino project to explore graphic applications on low-cost RISC-V microcontrollers. 
           - A replica of the Dino game from Google Chrome for the Arduino Uno.
-          - The hardware setup consited of a TFT Display, buzzer, tactile buttons and an Arduino Uno.
-          - The game algorithm employs selective brush erasing instead of drawing the whole frame everytime and therefore renders the animations very smoothly.  
+          - The hardware setup includes a TFT Display, buzzer, tactile buttons and an Arduino Uno.
+          - The game algorithm employs selective brush erasing instead of drawing the whole frame every time, making the animations very smooth.
       - layout: left
         border: weak
         title: Manipulator Workspace Plotter
@@ -224,10 +226,10 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          A program that can generate and visualize the 3D workspace of a N-DoF manipulator, the core of the project is based on the methods and applications discussed in the computational physics course by [Dr. P K Thiruvikraman](https://universe.bits-pilani.ac.in/Hyderabad/pkthirivikraman/profile).
-          - The algorithm uses a custom forward kinematics and monte-carlo based solver for generating the points.
-          - The algorithm can generate complex workspace shapes by just relying on the DH-parameters and joint angles as inputs. 
-          - Potential applications involve collision and interference checking when used together with a planning algorithm. 
+          A program that can generate and visualize the 3D workspace of an N-DoF manipulator, the project's core is based on the algorithms and applications discussed in the computational physics course by [Dr. P K Thiruvikraman](https://universe.bits-pilani.ac.in/Hyderabad/pkthirivikraman/profile).
+          - Based on a custom forward kinematics and monte-Carlo-based solver for generating cloud points.
+          - The algorithm can generate complex workspace shapes by just relying on the DH-parameters and joint angles as inputs.
+          - Potential applications involve collision and interference checking when used together with a planning algorithm.
       - layout: left
         border: weak
         title:  Stair Climbing Robot  
@@ -243,10 +245,10 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          An autonommous delivery robot built for the Flipkart GRID 2.0 - Robotics Track Compeition.
-          - A ROS based autonomous stair climbing robot that can carry payloads of upto 5kgs.
-          - The hardware stack consists of a Raspi along with a camera, LIDAR, GPS and other sensors. 
-          - Can be remotely controlled using a smartphone/tablet for ease of use. 
+          An autonomous package delivery robot built for the Flipkart GRID 2.0 - Robotics Track Competition.
+          - The use of caterpillar tracks and a support arm lets the robot traverse through stairs and plane ground efficiently.
+          - The hardware stack consists of a Raspi, camera, LIDAR, GPS, and other essential sensors.
+          - The robot can be remotely controlled using a smartphone/tablet for ease of use and safety.
       - layout: left
         #border: weak
         title: Spherical Wheel
@@ -262,10 +264,9 @@ content:
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          Inspired by sphero and the Goodyear spherical tire concept, this project aims to test out the feasabilty of an omnidirectional spherical robot.
-          - An omnidirectional robot that consists of a modular two part outer shell with internal wheels.
-          - The electronics stack consists of an Arduino Uno along with a motor driver and an RC reciever for wireless control.
-          - Features a spring loaded two part mechanical assembly inspired from sphero for making sure the inner wheels and the outer shell have adequent contact forces. 
+          Inspired by sphero and the Goodyear spherical tire concept, this project aims to test out the feasibility of an omnidirectional spherical robot.
+          - The mechanical assembly features a modular two-part outer shell with internal wheels.
+          - The electronics stack consists of an Arduino Uno, a motor driver, and an RC receiver for wireless control.
       # - layout: left
       #   #border: weak
       #   title: POV Display
@@ -302,7 +303,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        
         title: Technical Secretary
         link: boringcompany.com
         # link_text: boringcompany.com
@@ -311,9 +311,10 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Headed the technical senate which consists of 11 Technical Association, 8 Technical Clubs and 4 Technical Teams.
+            - Spearheaded the promotion of technical activites and culture on campus through various events. 
+            - Incorpirated  a peer-to-peer teaching platform for knowledge transfer and resonance amongst students.
       - layout: left
-        
         title: Joint Secretary
         link: boringcompany.com
         # link_text: boringcompany.com
@@ -324,7 +325,6 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
       - layout: left
-        
         title: Team Lead
         link: boringcompany.com
         # link_text: boringcompany.com
@@ -335,7 +335,6 @@ content:
         description: | # this will include new lines to allow paragraphs
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
       - layout: left
-        
         title: Team Lead
         link: boringcompany.com
         # link_text: boringcompany.com
